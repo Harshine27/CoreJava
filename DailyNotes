@@ -1,0 +1,285 @@
+JAVA:
+=====
+programming language:
+====================
+
+English,Telugu,Hindi
+
+communicate with machines
+==========================
+
+Machine language---------binary language/byte code-----------> 0's and 1's
+
+applications:
+=============
+
+2 types:
+
+ 1.standalone /desktop applications:
+ 
+   Eg: notepad,calculator etc
+
+ 2. distrubuted app/ network applications:
+ 
+    Eg: Gmail, whatsp,facebook,instagram....
+
+  2 types :
+  =========
+
+ 1.pop(procedure oriented programming language)
+ 
+  eg: c,cobol,b etc...
+
+ 2.oop(object oriented programming language)
+ 
+   eg: java,python,c++,.net
+   
+   oop offers
+   ==========   
+   
+   2 features:
+   ===========
+   
+   1.performance
+   
+   2.security
+   
+  oops paradigm:
+  =============
+  4 concepts
+  
+  1.inheritance
+  2.polymorphisam--------performance
+  
+  3.abstruction
+  4.encapsulation--------------->> security
+  
+  
+  java:
+  =====
+  java is a object oriented programming language
+  
+  which can be used develop both standlone and distrubuted applications.
+  
+  History of java:
+  ================
+  
+  java was developed and realeased by--------->> sun micro systems
+  
+  in the year 1995
+  
+  oracle corporation
+  
+  who is the father of java??
+  ===========================
+  
+  games gosling
+  
+  versions:
+  ===========
+  
+  current version is:  java se 21
+  ===================
+  
+  standard versions : java se 8,11 ,17 or 21
+  ==================
+  
+  Long term support(LTS)
+  ----------------------
+  
+  march and september....
+  
+  3 types of Editions:
+  ======================
+  
+  1.Java Standard Edition(jse): standalone appl---- core java
+  
+  2.Java Enterprise Edition(jee): distrubuted-- advanced
+  
+  3.Java micro/mobile Edition(jme): mobile applications
+  
+  
+  prerequisties of java program:
+  
+  ==============================
+  1.we need to download software/ install the software
+  
+    jdk-----(java development kit)
+	
+	www.oracle.com
+	
+  2 we need editors
+  
+  notepad,notepadd++, Eclipse,netbeans,intellij
+  
+  3.write the code
+  
+  4.save the file(.java extension)
+  
+  5.compile the program
+  
+  6.Execute the program
+  
+  Structure of the java program:
+  ==============================
+  
+  class <Classname>{
+  
+  public static void main(String[] args){
+  
+  // logic
+  
+  }
+  
+  
+  }
+  
+  compile the program:
+  ==================
+  
+  compiler
+  
+  converting high level language into Machine level language
+  
+           compiler
+  source -------------->>byte code
+  .java                  .class
+  
+  compilation
+  ===========
+  
+  To compile:
+  ===========
+  javac Filename.java
+  
+  To Execute:
+  ===========
+  
+  java Classname
+  
+  Why java??
+  ==========
+  
+  1.platform independence:
+  ==========================
+  
+       java is platform independent
+	   
+	    WORA----> write once run anywhere
+		
+		windows,linux,mac
+		
+		
+		.windows ------------------------> Linux
+		.class file                       .classfile
+		
+		
+  2.Garbage collection:
+  ========================
+  
+  500 variables(memory spaces)
+  
+  2 variables------498 are wasted
+  
+  Garbage collector-------unwanted memory space
+  
+  Garbage collection----------------increase performance
+  
+  
+  Fundamentals of java:
+  =====================
+  
+  class <ClassName>{
+  
+  public static void main(String args[]){
+  
+  // logic
+  
+  }
+  
+  
+  keywords:
+  =========
+  we have 53 keywords
+  
+  }
+  class: every java code need to be written inside the class
+  
+  main():
+  
+  ** compilation start from first line of the code and execution start from the main method
+  
+  jvm ----java virtual machine
+  
+  
+  class : keyword which is used to dclare the class body
+  
+  main():  name of the method..
+  
+  public : keyword and acceess modifier
+  
+  static : keyword ----- class properties
+  
+  void : keyword --- it returns nothing
+  
+  String[] args: predefine class and used for data types
+  
+  args---> parameter for main method
+  
+  System.out.println: Sytem is a predefined class and out is a obj for a system and println is a mrthos
+  
+  working of java program:
+  ==========================
+                    compiler           jvm                       cpu
+  java source code---------  byte code-------- Machine languge----------------output
+                            .class file
+  
+  jdk,jre,jvm:
+  ===========
+  
+  jdk:   java development kit
+  
+  jre: java runtime enviornment
+  
+  jvm : java virtual machine
+  
+  1.jdk:  development tools + [jre]
+  ======
+  deveopment tools   -----compiler and debugger
+  jre
+  
+  2.jre 
+  
+  jvm and class libraries
+  
+  super set of jvm
+  
+  ** dont have any tools
+  
+  3.jvm(java virtual machine)
+  
+  jvm is resopnsible for cheching and executiong our java code
+  
+  
+  
+  langugage fundamentals:
+  ========================
+  1.mainmethod()
+  2.data types
+  3.keywords
+  4.identifiers
+  5.commandline arguments
+  
+  6.arrays
+  
+  https://www.javatpoint.com/javafx-how-to-install-java
+  
+  how we check java download or notepad
+  
+  ****** java -version
+  
+  (minuse)
+                               
+  
+  
+  
