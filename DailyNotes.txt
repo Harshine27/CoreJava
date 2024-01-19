@@ -451,3 +451,165 @@ applications:
 		char                  2 bytes           unicode( 0 to 65535)                 space
 		
 		boolean               1 bit                  na                            false
+		
+		
+	variables:
+	==========
+	A varible is nothing but name of the memory location where our data get stored..
+	
+	int i = 10;
+	
+	Syntax:
+	=======
+	
+	<datatype><varaiblename> = data/value;
+	
+	=  ---------->> assignment operator
+	
+	eg: int i = 10; 20
+	
+	    20 
+		
+		vary + able
+		
+	declartion:
+	========
+	syntax:
+	======
+	<datatype><variablname>;
+	
+	eg: int i;
+	
+	intilization:
+	=============
+	
+	syntax:
+	======
+	
+	<datatype><varaiblename> = data/value;
+	
+	Eg: int i = 50;
+	
+	int i ;
+	
+	2 types:
+	========
+	
+	1.global variables
+	
+	2.local variables
+	
+	1.local variables:
+	====================
+	
+	variables are defined inside a method
+	
+	
+	2.global varaibles :
+	===================
+	
+	varaibles  are defined inside a class but outside the main method
+	
+	** varaible ---properties
+	
+	class Test{
+	
+	// global varaiables
+	
+	public static void main(String args[]){
+	
+	// local variables
+	
+	}
+	
+	
+	}
+	
+	
+	global varaibles are 
+	
+	2 types:
+	========
+	
+	1.static variables
+	
+	2.instance varaibles
+	
+	if it is static -----> static keyword before the variable it is static variable
+	if it is no static --------> instance variable
+	
+	
+	4 properties:
+	=========
+	1.syntax:
+	===========
+	
+	static ------> we can use static
+	instance ----> no static keyword
+	
+	2.memory:
+	=========
+	
+	static : memory will get allocating only once at the time class loading into jvm...
+	=======
+	
+	instance: memory will get allocationg for every object creation
+	=========
+	
+	     obj?? 
+		 
+		 object is instance of class ------> memory allocation
+		 
+		 Syntax:
+		 =======
+		 
+		 classname objref = new classname(); // obj creattion
+		 
+		 Test obj = new Test();
+		 
+		 Test obj2 = new Test();
+		 
+    3.how to access :
+	================
+   
+   
+   static properties:     can be accessed by using "class name"
+   ===================
+   
+   instance properties:
+   ================        can be accessed by using obj ref
+   
+   4.when to use :
+   ===============
+   static :  country, collegename , company name -----> common properties
+   ==========
+   
+   instance : name , contact no-----------> unique properties
+   =========
+   
+   
+   Typecasting:
+   ===========
+   the process of converting one data type into another data type
+   
+   2 types :
+   =======
+   
+   1.widening:
+   ==========   
+   
+     smaller data type into larger data type
+	 
+   
+      byte---short---char---int--long--float---double
+   
+   2.narrowing:
+   ===============
+   
+   explicity we have to typecasting
+   
+   lossy conversion:
+   ================
+   
+   here we loss some data..while we are coverting larger to smaller
+   
