@@ -613,3 +613,123 @@ applications:
    
    here we loss some data..while we are coverting larger to smaller
    
+   
+   methods:
+   =======
+   
+   
+   method is a block of code which is defined to perform specific task
+   
+   eg:  int a = 10;
+        int b = 20;
+		
+		int sum = a+b;
+		
+		syso(sum);
+		
+		** code reusablity
+		
+	 syntax:
+=============
+    
+     [access modifier]	<return type> <method name>(if paramerters) // method header
+	 
+	 {
+	  // logic // method body
+	 
+	 }
+	 
+	 
+	 eg:
+	   
+	   public static void main(String[] args){
+	   
+	   
+	   
+	   }
+	   
+	   ** methods get executed only when called..
+		
+		
+	   ** methods addOfTwo()-----camelCase
+	   
+	   2 types:
+	   ========
+	   
+	   1.predefined method
+	   
+	   2.user defined method
+	   
+	   main() , print(), length()
+	   
+	   2.user defined method:
+	   ======================
+	   
+	   2 types :
+	   ========
+	   
+	   1. static methods
+	   2. instance metods...
+	   
+	   static method accessing by ----->>class name 
+	   
+	   instance methods accessing by using ----->> obj ref
+	   
+	   
+	   packages:
+	   ========
+	   
+	   packages are nothing but floders
+	   
+	   collection of class librariers
+	   
+	   package keyword
+	   
+	   import  keyword
+	   
+	   syntax:
+	   ======
+	   pacakge domain.company.package;
+	   
+	   2 types 
+	   =======
+	   
+	   1.predefined package
+	   
+	   2.user defined package
+	   
+	   
+	   **** java.lang is a default package
+	   
+	   **Object class is a super class for all the java classes...
+	   
+	       11 methods.
+		   
+		pacakge com.corejava.basics;
+		
+		import package .*;
+		
+		import package.classname;
+		
+		to compile : 
+		==============
+		
+		
+		  javac -d . filename.java
+		
+		
+		to execute :
+		
+		===========
+		
+		java packagename.filename
+		
+		
+		
+		
+		
+	   
+	   
+	   
+		
+		
