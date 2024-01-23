@@ -630,7 +630,7 @@ applications:
 		** code reusablity
 		
 	 syntax:
-=============
+     =============
     
      [access modifier]	<return type> <method name>(if paramerters) // method header
 	 
@@ -701,7 +701,7 @@ applications:
 	   
 	   **** java.lang is a default package
 	   
-	   **Object class is a super class for all the java classes...
+	   ** Object class is a super class for all the java classes...
 	   
 	       11 methods.
 		   
@@ -714,22 +714,103 @@ applications:
 		to compile : 
 		==============
 		
-		
-		  javac -d . filename.java
+		javac -d . filename.java
 		
 		
 		to execute :
-		
 		===========
 		
 		java packagename.filename
 		
 		
+	 Dynamically inputs from the users:
+	 ==================================
+	 
+	 run time inputs from the users
 		
 		
-		
+	   1.commandline arguments
+	   
+	   2.Scanner class
+	   
+	   3.BufferdReader(file i/o)
 	   
 	   
-	   
+	1.commandline arguments:
+	========================
 		
-		
+	public void display(String name){ // parameterized method
+	
+	Syso(name);
+	
+	
+	}
+	
+	obj.display("divya");
+	
+	
+	public static void main(String [] args){
+	
+	
+	
+	}
+	
+	array:
+	
+	int a = 1;
+	
+	int a = 1,2,3,4 ;
+	
+	array : we can stored multipule similar values 
+	
+	
+	String name = "divya";
+	
+	String names[] = "divya","harshine","125", "25.2","true";
+	
+	
+	Wrapper classes:
+	================
+	
+	8 wrapper classes for 8 datatypes
+	
+	
+	datatype                    wrapperclasses
+	========================================
+	byte                        Byte
+	short                       Short
+	int                         Integer
+	long                        Long
+	float                       Float
+	double                      Double
+	char                        Character
+	boolean                     Boolean
+	
+	static methods:
+	==============
+	
+	parseInt(), parseFloat(),.........
+	
+	
+	array indexes
+	
+	index start from the -------->>0
+	
+	max index -------->> length - 1
+	
+	Scanner class:
+	===============
+	
+	java.util.package
+	
+	https://docs.oracle.com/javase/8/docs/api/
+	
+	
+	Scanner scan  = new Scanner(System.in);
+	
+	
+	next(), nextInt(), nextFloat(),nextBoolean()
+	
+	
+	
+	
