@@ -1027,12 +1027,113 @@ applications:
 	   }
 	   
 	   
+	  2.switch statement:
+	  ===================
+	  
+		syntax:
+        =======
+		
+       switch(expression){
 	   
-		  
+	   case 1 :
+	     // code
+	   
+	   case 2:
+	   
+	   // code
+	   
+	   default:
+	     // code
+	   
+	   }		
 		  
 	  
 	 
+	 2.Iterative / loop statements:
+	 ===============================
 	 
+	 boolean expresion
+	 
+	 3 types :
+	 ========
+	 
+	 1.For loop
+	 
+	 2.While loop
+	 
+	 3.Do-While loop
+	 
+	 
+	 1.For loop:
+	 ===========
+	 if no of iterations are known, we chose for loop
+	 
+	 
+	 3 parts :
+	 =========
+	 
+	 Syntax:
+	 =======
+	 
+	 
+	 for( intilization; condition, increment / decrement){
+	 
+	 // code
+	 
+	 
+	 }
+	 
+	 2.While loop:
+	 ============
+	 
+	 if we dont know num of iterations advance 
+	 
+	 Syntax:
+	 ======
+	 
+	 while(condition){
+	   // code 
+	 
+	    increment / decrement
+	 
+	 }
+	 
+	 
+	   
+	   3.Do- while loop:
+	   ================
+	   
+	   if we dont know the num of iterations but if we want our code get execute atleast once
+	   
+	   
+	   syntax:
+	   =======
+	   
+	   do{
+	    // code
+	   
+	   }while(condition);
+	   
+	   
+	   
+	   3.Transfer/ Jump stmts :
+	   =======================
+	   
+	   
+	   1.break ----------> Loops, switch statement
+	      
+		  when we give break statement ,it terminates the loop
+	   
+	   2. continue
+	   
+	      skip the current iteration and jump to the next iteration
+	   
+	   
+	   
+	   
+	   
+	   
+	   
 	   
 	   
 	   
