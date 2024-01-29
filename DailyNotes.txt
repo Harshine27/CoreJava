@@ -945,6 +945,9 @@ applications:
 	   2.Switch statement
 	   
 	   
+	   
+	   
+	   
 	  1.if statements :
 	  ================
 	  
@@ -1131,12 +1134,87 @@ applications:
 	   
 	   
 	   
+	     JVM arichitecture:
+		 ==================
 	   
 	   
 	   
+	     
+		 
+		      javac Filename.java     execution
+		.java ----- . class file -------->> jvm------> output
+	   
+	       compilation
 	   
 	   
-	   
-	   
-	   
-	
+	     
+		jdk----jre----jvm
+		 
+		jar files ----collection of .class files
+
+        jar ---java archive		
+	    
+		Block:
+		=====
+		inside the braces we write some logic that particular code is nothing but Block
+		
+		{
+		
+		// code----------->> Block
+		
+		}
+		
+		static block------>> static{
+		                         // code
+		                         }
+		
+		instance block---------->{
+		                        // code
+		                        }
+		
+		
+		literals:
+		=========
+		
+		a constant value
+		
+		a constant value  which can be assigned to  a variable
+		
+		int x = 10;
+		
+		eg: 10, 23.2, false,"divya",'H';
+		
+		int x = 10L; 
+		
+		long l = 10L;
+		
+		String name = 'divya';
+		
+		
+		Separtors:
+		===========
+		it is a symbol....which is used to defined a  struture of java program
+		
+		
+		{}----> we write code inside this 
+		
+		[]-----> we declare array
+		
+		,.....(a , b )---passing the arguments
+		
+		;------->>  it terminates the statement
+		
+		. ------->  it devides the terms
+		
+		
+		()---> method
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
