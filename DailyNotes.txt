@@ -1206,15 +1206,133 @@ applications:
 		
 		. ------->  it devides the terms
 		
-		
 		()---> method
 		
 		
+		***********************************
+		
+		oops:
+		=====---->> object oriented programming language
+		
+		oop is about creating object that contain both data members(variables) and member functions.(methods).
+		
+		oop pardiagm - 4
+		====================
+		
+		1.Inheritance
+		
+		2.polymorphisam------->> performance
+		
+		3.abstruction
+		
+		4.encapsulation---------->>security
 		
 		
+		key aspects:
+		------------
+		
+		class and object
+		
+		class:
+		=========
+		
+		a class is a blueprint for objects
+		
+		it is logical entity
+		
+		colection of datamebers nd member functions
+		
+		objects are created for class properties
 		
 		
+		object:
+		======
 		
+		object is instance of class // allocationg memory for class properties
+		
+		objects are created for memory allocation to class properties
+		
+		an objet is an entity which has both state and behaviour
+		
+		
+		class student
+		{               ------>100 students
+		
+		name 
+		rollno
+		age
+		contact
+		
+		displayMarks(name , marks){
+		 
+		 
+		 }
+		 
+		}
+		
+		std1 -------> divya
+		               100
+					   15
+					   4565157--------> obj1
+					   
+	    std2 ------------> Harshine
+		                    102
+							12
+							45242254-----> obj2
+							
+							
+		1.Inheritance:
+		==============
+		 
+		aacuring the properties from one class to another class 
+		
+		propetries can be variables, methods,constructors, interface 
+		
+		*****CODE RESUABILTY
+		
+		class A {
+		
+		// 100 methods
+		
+		+ 11 methods
+		
+		}
+		
+		public class  B extends A{
+		
+		// 50 methods
+		
+		+100 methods 
+		=====         150 methods 
+		+ 11 methods
+		
+		}
+		
+		
+		2 keywords:
+		============
+		
+		1.extends
+		
+		2.implements
+		
+		** object class is super class for evry java class
+		
+		5 types:
+		=========
+		
+		1.single  inheritance
+		
+		2.multilevel inheritance
+		
+		3.hierarical inheritance
+		
+		4.multipule inheritance
+		
+		5.hybrid inheritance
+		
+		
+		** mutipule inheritance is not supported at @class level
 		
 		
 		
