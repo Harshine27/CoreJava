@@ -632,7 +632,7 @@ applications:
 	 syntax:
      =============
     
-     [access modifier]	<return type> <method name>(if paramerters) // method header
+     [access modifier]	<return type> <method name>(if paramerters) // method header /method signature
 	 
 	 {
 	  // logic // method body
@@ -1316,23 +1316,78 @@ applications:
 		
 		2.implements
 		
-		** object class is super class for evry java class
+		** Object class is super class for all java classes(11 methods)
 		
 		5 types:
 		=========
 		
-		1.single  inheritance
+		1.single  inheritance----> one parent---one child
 		
-		2.multilevel inheritance
+		2.multilevel inheritance----SuperParent---Parent----Child
 		
-		3.hierarical inheritance
+		3.hierarical inheritance---->> one parent and child1,child2
 		
-		4.multipule inheritance
+		4.multipule inheritance---->> many parents ---one child
 		
 		5.hybrid inheritance
 		
 		
-		** mutipule inheritance is not supported at @class level
+		** mutipule inheritance is not supported at @class level in java
+		
+		
+		we are having multipule classes in single java file but we have only one public class..
+		
+		
+		** multipule inheritance is suppoerted at @interfaceLevel
+		
+		
+		abstract methods and concrete methods:
+		=====================================
+		
+		concrete methods:
+		================
+		
+		return type methodname(){
+		
+		// logic
+		
+		
+		}
+		
+		public void display(){ // method signature
+		
+		// logic // method body
+		
+		
+		}
+		
+		** method with implementation or method body
+		
+		
+		abstract methods:
+		=================
+		
+		** a method without implmentation
+		
+		
+		public abstract void display();-----> abstract method
+		
+		
+		abstract keyword
+		
+		
+		why???
+		
+		
+		abstruction:
+		===========
+		
+		hidding the information from users....
+		
+		security
+		
+		abstract classses and interface ...
+		
 		
 		
 		
