@@ -1338,7 +1338,7 @@ applications:
 		we are having multipule classes in single java file but we have only one public class..
 		
 		
-		** multipule inheritance is suppoerted at @interfaceLevel
+		** multipule inheritance is suppoerted at @interface Level
 		
 		
 		abstract methods and concrete methods:
@@ -1367,7 +1367,7 @@ applications:
 		abstract methods:
 		=================
 		
-		** a method without implmentation
+		** a method without implementation
 		
 		
 		public abstract void display();-----> abstract method
@@ -1379,15 +1379,68 @@ applications:
 		why???
 		
 		
-		abstruction:
+		abstraction:
 		===========
 		
-		hidding the information from users....
+		hidding the unwanted information from users....
 		
 		security
 		
 		abstract classses and interface ...
 		
 		
+		abstract class and interfaces:
+		==============================
+		
+		concrete class: collection of only concrete methods
 		
 		
+		abstract class:  collection of both concrete methods and abstract methods
+		
+		
+		interface: collection of only abstract methods
+		
+		
+		interface ** ----> keyword
+		
+		public abstract methods
+		
+		 public abstract void m1();
+		
+		** we are not creating the objects for abstract class and interface
+		
+		2 ways:
+		=====================
+		1.Abstract Class:(0-100 %)
+		
+		2.interfaces:(100 %)
+		
+	 Multipule inheritance:
+     =====================
+     many parents and one child	
+	 
+	 
+	 class A{                                    class B{
+	 
+	                                             void m1(int a , int b){
+		void m1(int a , int b)										 
+												  Syso( a*b)
+	   Syso(a+b)
+	 
+	 }
+	 
+	                                             }
+	 }
+	                                             }
+	 class C extends A,B{
+	 
+	 psvm(){
+	 
+	 C c = new C();
+	 c.m1(10,5);
+	 
+	 }
+	 
+	 }
+	 
+	 possible @ interface level...
