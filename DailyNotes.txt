@@ -1423,7 +1423,7 @@ applications:
 	 class A{                                    class B{
 	 
 	                                             void m1(int a , int b){
-		void m1(int a , int b)										 
+	 void m1(int a , int b)										 
 												  Syso( a*b)
 	   Syso(a+b)
 	 
@@ -1444,3 +1444,141 @@ applications:
 	 }
 	 
 	 possible @ interface level...
+	 
+	 polymorphism:
+	 ============
+	 poly---->many
+	 
+	 morphism -----forms
+	 
+	 having many form(different ways)
+	 
+	 
+	 single task in different ways....
+	 
+	 
+	 eg: humans--- as child, student,friends
+	 
+	 print method
+	 
+	 printString
+	 
+	 printInt
+	 
+	 printFloat
+	 
+	 2 types:
+	 ===========
+	 
+	 1.compile time polymorphism
+	 
+	 2. run time polymorphism
+	 
+	 acheived in 2 ways:
+	 
+	 
+	 1. Method Overloading--print method
+	 
+	 2.Method Overridding
+	 
+	 1.Method overloading:
+	 =====================
+	 method name is same,but signature different
+	 
+	   signature : 
+	   
+	   
+	   no of parms
+	   
+	   order of parms
+	   type of prms
+	   
+	   
+	   print method
+	   
+	   Advantage of method overloading:
+	   ================================
+	   
+	   code readablity
+	 
+	 
+	 printString
+	 
+	 printInt
+	 
+	 printFloat---->> code readability
+	 
+	 print 
+	 
+	 
+	 + ,  addition, concatenatation
+	 
+	 fnme + lastname =====>> divya+ Harshine--->> divyaHarshine
+	 
+	 (1 + 2)--->> 3
+	 
+	 add  2 3 
+	 sum  5 6 7 
+	 total 7 89 12 9 
+	 
+	 add  2 3 
+	 add  5 6 7 
+	 add  7 89 12 9 
+	 
+	 type promotion:
+	 ==============
+	 smaller data to larger data 
+	 
+	 method overriding:
+	 =====================
+	 method name is same , but implementation is different 
+	 
+	 ** parent class method will be overriden with child class 
+	 
+	 rules:
+	 ======
+	 
+	 method name is same , implementation is diff
+	 
+	 
+	 parent and child relations --------->>inherits 
+	 
+	 class Parent{
+	 
+	  int property(){
+	      return 1000000000;
+	   
+	  }
+	  
+	  public void wedding(){
+	  
+	    Syso(" thammanna")
+	  
+	  }
+	  
+	 
+	 }
+	 
+	 
+	 class Child extends Parent{
+	 
+	 psvm(){
+	 
+	 Child c = new Child();
+	 @Override
+	 public void wedding(){
+	  
+	    Syso("Keerthi Suresh")
+	  
+	  }
+	 
+	 c.wedding();
+	 
+	 
+	 
+	 
+	 }
+	 
+	 
+	 
+	 }
