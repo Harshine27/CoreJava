@@ -1552,7 +1552,7 @@ applications:
 	  
 	  public void wedding(){
 	  
-	    Syso(" thammanna")
+	    Syso(" thamanna")
 	  
 	  }
 	  
@@ -1582,3 +1582,107 @@ applications:
 	 
 	 
 	 }
+	 
+	 Constructors:
+	 ===========
+	 
+	 special method 
+	 
+	 it useed to intilize the object...
+	 
+	 eg:
+    ====	 
+	 
+	   int a ; // declaration
+	  
+	   int a = 10; // intilozation
+	   
+	   syntax:
+	   ======
+	   
+	   classname obj = new classname();
+	   
+	   classname obj = new constructor();
+	   
+	   ** whenever the obj is created a constructor get called implicity
+	   
+	   rules:
+	   ======
+	   
+	   1. class name and constructor name both need to be same...
+	   
+	   
+	   2. no return type
+	   
+	   
+	   2 responsilbilites:
+	   =======================
+	   
+	   1.to intilize the object
+	   
+	   2.to provide the default values to the instance properties...
+	   
+	   
+	   2 types :
+	   =========
+	   
+	   1.Default constructor------->> without parameters
+	   
+	   2.Paramererized consstructor-----> with parametrs
+	   
+	   
+	   eg:
+	   ====
+	   
+	   class Test{
+	   
+	   
+	   void display(){ // normal method
+	   
+	   
+	   }
+	   
+	   
+	   Test(){ // default constructor 
+	   
+	   
+	   }
+	   
+	   
+	   class A{
+	   
+	    int b; // instance variables
+		
+		psvm(){
+		
+		A obj = new A();
+		
+		syso(obj.b);//  0
+		
+		}
+	   
+	   
+	   
+	   }
+	   
+	   
+	   
+	   }
+	   
+	   ** compiler will creates default constructor automatically...
+	   
+	   
+	   class Test{
+	   
+	   Test(parametrs){ // paramertreized constructor
+	   
+	   
+	   }
+	   
+	   
+	   
+	   }
+	   
+	   ** only one default constructor allowed....but we can take any parameterized constructors
+	   
+	   ** overloading is possiable
