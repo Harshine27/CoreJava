@@ -1686,3 +1686,44 @@ applications:
 	   ** only one default constructor allowed....but we can take any parameterized constructors
 	   
 	   ** overloading is possiable
+	   
+	   final,this,super:
+	   ==============
+	   final:
+	   ======
+	   to restrict user..
+	   
+	   3 places:
+	   
+	   1. before variable
+	   
+	   2. before method
+	   
+	   3. before class 
+	   
+	 1.before variable:
+	 =================
+	   
+	 once declared with final, values with in varaiable cannot be changesd
+		
+	2.before method:
+	=================
+	cannot change the implentation when we declared with final keyword(overriding is not poss)
+	
+	3.before class:
+	==============
+	
+	we cannot extend the final class properties
+	
+	this $ super:
+	============
+	
+	this:    refers to the current class properties
+	=====
+	
+	super:    refers to parent class properties
+	======
+	
+	
+	properties can be variables,methods,constructors ,objects
+	
