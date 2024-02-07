@@ -1694,6 +1694,7 @@ applications:
 	   to restrict user..
 	   
 	   3 places:
+	   ----------
 	   
 	   1. before variable
 	   
@@ -1726,4 +1727,21 @@ applications:
 	
 	
 	properties can be variables,methods,constructors ,objects
+	
+	
+	Access modifiers:
+	=================
+	
+	4 modifiers:
+	===============
+	
+	1.public 
+	
+	2.private
+	
+	3.protected
+	
+	4.default
+	
+	scope/ visiblity  of class, variables, methods, constructors also...
 	
