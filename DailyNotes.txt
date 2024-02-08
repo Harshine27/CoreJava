@@ -1744,4 +1744,39 @@ applications:
 	4.default
 	
 	scope/ visiblity  of class, variables, methods, constructors also...
+	 
+	1. private: only within the class,cannot acceess outside the class.
+	
+	2. protected: anywhere within the pacakge whether it is child or not,but outside the package we can access
+	              only when there is a parent child class relation(inheritance)
+				  
+	3.default: if we are not using any modifier,it behaves as default.
+	          -->> only within the package,cannot access outside the package.
+			  
+	4.public: can be acceessed everywhere.
+	
+	used for :
+	
+	access modifier can be used for encapsulation
+	
+	**  miss use of data can be prevented
+	
+	Encapsulation:
+	==============
+	
+	putting the things together
+	
+	wrapping up the data members and methods
+	
+	private --->> data members
+	
+	public methods ----->> getters , setters methods 
+	
+	data binding:   to make the data as private
+	
+	
+	why encapsulation:
+	------------------
+	
+	to better privacy....testing,debugging
 	
