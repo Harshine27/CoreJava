@@ -1779,4 +1779,94 @@ applications:
 	------------------
 	
 	to better privacy....testing,debugging
+	String  class:
+	=====
+	Sequence /collection of characteers
 	
+	eg: "divya" 
+	
+	
+	2. non- primiviate : String ,class, arrays
+	===================
+	
+	** String is non-primitive data tpe
+	
+	** predefined class----------->> java.lang.package
+	
+	** String is a special class ------ representing the set of characters
+	
+	
+	  String name = "Divya";
+	  
+	  All strings are object of a predefined class
+	  
+	  3 classes :   String 
+	  =========
+	  
+	  1.String  --------> immutable
+	  
+	  2.StringBuffer
+	  
+	  3.StringBulider-------->> muttable
+	  
+	  
+	  java.lang.package
+	  
+	  
+	  
+	  String:
+	  =======
+	  
+	  2 ways :
+	  =======
+	  
+	  1.by using literal syntax
+	  
+	  2.by using new keyword
+	  
+	  1.by using literal syntax:
+	  ==========================
+	  
+	  
+	  String name = "java";
+	  
+	  
+	  classname obj = new classname();
+	  
+	  
+	  2 : using new keyword:
+	  =====================
+	  
+	  String name  = new String("java");
+	  
+	  
+	  StringConstantPool:   (memory area )(SCP)
+	  ===================
+	  
+	  
+	  global:    instance,static
+	  
+	  local : 
+	  
+	  
+	  heap area-----> instance 
+	  
+	  method area ----> static
+	  
+	  Stack area ---->> local
+	  
+	  
+	  1. by using literal syntax:
+	  =============================
+	  
+	  
+	  String name = "welcome";
+	  
+	  String name1 = "welcome";
+	  
+	  String name2 = "welcome";
+	  
+	  String is a special class it will get allocating the memory inside the scp(StringConstantPool)
+	  
+	  SCP does not allows the duplicate values 
+	  
