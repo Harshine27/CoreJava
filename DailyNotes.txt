@@ -1779,8 +1779,10 @@ applications:
 	------------------
 	
 	to better privacy....testing,debugging
+	
 	String  class:
-	=====
+	==============
+																																																									
 	Sequence /collection of characteers
 	
 	eg: "divya" 
@@ -1802,10 +1804,10 @@ applications:
 	  
 	  3 classes :   String 
 	  =========
-	  
 	  1.String  --------> immutable
+	  scp --->> doest not allows duplicsaties --->> we dont want other memory reference to get changed
 	  
-	  2.StringBuffer
+	  2.StringBuffer------> muttable
 	  
 	  3.StringBulider-------->> muttable
 	  
@@ -1823,6 +1825,7 @@ applications:
 	  1.by using literal syntax
 	  
 	  2.by using new keyword
+	  
 	  
 	  1.by using literal syntax:
 	  ==========================
@@ -1859,7 +1862,6 @@ applications:
 	  1. by using literal syntax:
 	  =============================
 	  
-	  
 	  String name = "welcome";
 	  
 	  String name1 = "welcome";
@@ -1869,4 +1871,47 @@ applications:
 	  String is a special class it will get allocating the memory inside the scp(StringConstantPool)
 	  
 	  SCP does not allows the duplicate values 
+	  
+	  "==" operator------> memory references
+	  
+	  equals()-------> checks the values of strings
+	  
+	  
+	  compareTo():
+	  ============
+	  
+	  lexigraphically------>> alphabtecially
+	  
+	  1. returns 0 , if both objects are same 
+	  
+	  2. returns negative, if obj1 comes before obj2
+	  
+	  3.returns positive , if obj1 comes aftr obj2 
+	  
+	  StringBuffer and StringBulider:
+	  ===============================
+	  
+	  StringBuffer sb = new StringBuffer("java");
+	  
+	  String ----equals()------>> values
+	  
+	  StringBuffer and StringBulider---> equals()---> memory reference
+	  
+	  StringBuffer ---->> Synchronized
+	  
+	  StringBulider ---->> non Synchronized 
+	  
+	  synchronized:
+	  =============
+	  
+	  t1,t2,t3----->> keyword
+	  
+	  ----->> thread safety 
+	  
+	  
+	  StringBuffer ------->> synchronized ---->> thread safety
+	  
+	  StringBulider --->> non synchronized ---->> better performance
+	  
+	 https://www.w3schools.com/java/java_ref_string.asp 
 	  
