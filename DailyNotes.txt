@@ -1804,7 +1804,9 @@ applications:
 	  
 	  3 classes :   String 
 	  =========
+	  
 	  1.String  --------> immutable
+	  
 	  scp --->> doest not allows duplicsaties --->> we dont want other memory reference to get changed
 	  
 	  2.StringBuffer------> muttable
@@ -1914,4 +1916,62 @@ applications:
 	  StringBulider --->> non synchronized ---->> better performance
 	  
 	 https://www.w3schools.com/java/java_ref_string.asp 
+	  
+	  
+	  Arrays:
+	  ======
+	  it is an indexed collection of fixed no of homogenous data elements
+	  
+	  ** array is an object
+	  
+	  String name = "Harshine" ,"Divya","prashanti";
+	  
+	  10 students 
+	  
+	  name1 = divya 
+	  name2 = harshine
+	  
+	  String[] name = {"harshine", "divya", "prashanti"}; // by using literal way to create array obj
+	  
+	  int[] num = {1,2,3,4,5,6};
+	  
+	  2 ways;
+	  ======
+	  2.String[] name = new String[2];
+	  
+	  advantagess:
+	  ============
+	  
+	  >> group of elements / data together
+	  
+	  >> code readbility
+	  
+	  disadvantages:
+	  ===============
+	  
+	  1.stores only similar data
+	  
+	  2.an array is fixed in size
+	  
+	  note:
+	  ==========
+	  
+	  **array object will get memory allocation inside the heap area
+	  
+	  arrays can be accessed with the help of index values
+	  
+	  
+	  2 types of arrays:
+	  ==================
+	  
+	  1.single dimensional array
+	  
+	  2.multi dimensional array
+	  
+	  1 2 3
+	  4 5 6 
+	  7 8 9 
+	  
+	  
+	  
 	  
