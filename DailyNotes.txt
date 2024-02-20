@@ -1924,7 +1924,7 @@ applications:
 	  
 	  ** array is an object
 	  
-	  String name = "Harshine" ,"Divya","prashanti";
+	  String name = "Harshine" ,"Divya","Prashanti";
 	  
 	  10 students 
 	  
@@ -1937,9 +1937,9 @@ applications:
 	  
 	  2 ways;
 	  ======
-	  2.String[] name = new String[2];
+	  2.String[] name = new String[2]; // by using new keyword
 	  
-	  advantagess:
+	  advantages:
 	  ============
 	  
 	  >> group of elements / data together
@@ -1971,6 +1971,74 @@ applications:
 	  1 2 3
 	  4 5 6 
 	  7 8 9 
+	  
+	  Exception Handling:
+	  ===================
+	  
+	  converting the system defined  error messages into user friendly error messages.
+	  
+	  
+	  limitations:
+	  ==========
+	  
+	  1.system defined error message 
+	  
+	  2.abnormally terminated
+	  
+	  exception handling;
+	  ===================
+	  
+	  1.try
+	  
+	  2.catch
+	  
+	  3.finally
+	  
+	  4.throw
+	  
+	  5.throws
+	  
+	  errors:
+	  =======
+	  
+	  2 types:
+	  --------
+	  
+	  1.compiletime errors:(poor understanding of the language)
+	  -----------------------
+	  
+	  2.runtime errors: invalid inputs
+	  --------------------
+	  
+	  **exception is nothing but object 
+	  
+	  Exception:
+	  ----------
+	  exception is an unexpected event that distrupts the normal flow of program.
+	  
+	  types of exceptions:
+	  ===================
+	  
+	  3 types:
+	  =======
+	  
+	  1 checked exceptions-------> at compiletime
+	  
+	  2.unchecked------->> at runtime
+	  
+	  3.errors
+	  
+	  
+	  try: always we have to place risky code inside the try block
+	  -----
+	  
+	  catch: catch will handle the exception and it will give the some user friendly error message.
+	  -------
+	  
+	  finally: it always executes eventhough the exception is raised or not,,,,
+            	  always executes the finally block code.
+	  -------
+	  
 	  
 	  
 	  
