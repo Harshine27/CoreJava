@@ -2036,10 +2036,23 @@ applications:
 	  -------
 	  
 	  finally: it always executes eventhough the exception is raised or not,,,,
-            	  always executes the finally block code.
+            	  always executes the finally block code.(closing connections)
 	  -------
+	  throw:   raise an exception explicity  
+	  ======
+	  throws:  declared the exceptions
+	  ======
+	  
+	** Throwable class is super class for all the exception classes..    Exception clas inherits Throwable 
 	  
 	  
-	  
-	  
-	  
+	 system defined
+	 
+     user defined	
+     
+     user defined expection:
+     =======================
+	 
+      	 1. take class ------>> child class--->> we have extends Exception class 
+		 
+		 2.take one paramerterized constructor and toString()
