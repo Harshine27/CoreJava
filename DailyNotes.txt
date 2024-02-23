@@ -2056,3 +2056,72 @@ applications:
       	 1. take class ------>> child class--->> we have extends Exception class 
 		 
 		 2.take one paramerterized constructor and toString()
+		 
+	     File Handling:
+	     =============
+	     Predefined class ---->. java.io.package
+	
+	     create, write,read
+	  
+	   predefined classes to write into file:
+	   ======================================
+	  
+	     1.FileWriter
+		 
+	     2.BufferedWriter
+		 
+	     3.PrintWriter
+	  
+	  
+	  predefined classses to read the data from file:
+	  ==============================================
+	  
+	  1.FileReader
+	  
+	  2.BufferdReader
+	
+	File class:
+	==========
+	
+	predefined class ---->> java.io.package
+	
+	File f = new File("hello.txt");
+	
+	FileWriter:
+	==========
+	
+	write()----->> write the data into our file
+	
+	limitations:
+	===========
+	
+	--->> no number data allowed
+	
+	----->> Everytime we have to use "\n"
+	
+	BufferdWriter:
+	==============
+	
+	write()
+	
+	no number data allowed
+	
+	Every time we have to use newLine()
+	
+	FileReader:
+	==========
+	
+	read()-----> it returns int type
+	
+	limitations:
+	===========
+	
+	read the data character  by character
+	
+	BufferedReader:
+	==============
+	
+	readLine()--------->> it returns String type
+	
+	read the data Line by line
+	
