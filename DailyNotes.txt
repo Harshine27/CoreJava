@@ -2108,6 +2108,11 @@ applications:
 	
 	Every time we have to use newLine()
 	
+	PrintWriter:
+	============
+	
+	println()
+	
 	FileReader:
 	==========
 	
@@ -2124,4 +2129,95 @@ applications:
 	readLine()--------->> it returns String type
 	
 	read the data Line by line
+	
+	Serialization and De-Seraiaization:
+	====================================
+	Serialization:
+	==============
+	
+	converting the obj data into byte data
+	
+	
+	De-Serialization:
+	================
+	
+	converting the byte data into obj data
+	
+	to seriazlizable:
+	================
+	
+	2 classes:
+	
+	1.FileOutputStream
+	
+	2.ObjectOutputStream---------->writeObject()
+	
+	to DE-seriazlizable:
+	================
+	
+	2 classes:
+	
+	1.FileInputStream
+	
+	2.ObjectInputStream---------->readObject()
+	
+	
+	
+	Multi Threading:
+	================
+	
+	multi tasking:
+	==============
+	Executing several tasks at a time
+	
+	2 types:
+	----------
+	
+	1.process based multitasking
+	
+	2.Thread based multitasking
+	
+	process:
+	=======
+	
+	collection of threads
+	
+	1.process based multitasking:
+	==============================
+	
+	Executing several tasks at time but each task is seperate independent process
+	
+	
+	EG: Laptop (Eclipse,Notepad,google,teamslink)
+	
+	
+	2.Thread based multitasking:
+	=============================
+	
+	thread is smallest unit of process 
+	
+	Executing several tasks at time but each task is releated same process
+	
+	suppose
+	
+	Eg: notepad(typing,sugesstions)
+	
+	
+	Eg: Eclipse(Typing code,compiling,Exceuting,suggestions)
+	
+	
+	Threads will contain the within process 
+	
+	
+	Advantages of multithreading:
+	============================
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
