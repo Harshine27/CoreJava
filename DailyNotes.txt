@@ -2161,7 +2161,7 @@ applications:
 	
 	2.ObjectInputStream---------->readObject()
 	
-	
+	** Serializable ---marker interface ----no abstract methods (zero interface  )
 	
 	Multi Threading:
 	================
@@ -2182,6 +2182,7 @@ applications:
 	
 	collection of threads
 	
+	
 	1.process based multitasking:
 	==============================
 	
@@ -2194,7 +2195,7 @@ applications:
 	2.Thread based multitasking:
 	=============================
 	
-	thread is smallest unit of process 
+	Thread is smallest unit of process 
 	
 	Executing several tasks at time but each task is releated same process
 	
@@ -2212,11 +2213,49 @@ applications:
 	Advantages of multithreading:
 	============================
 	
+	class Test{
+	
+	1.connecting file
+	2.reading from file------5 hurs------> Thread1
 	
 	
 	
+	1000 lines of code-------->> Thread2
 	
+	}
 	
+	why??
+	-------
+	
+	to improve response time for better performance
+	
+	2 ways:
+	========
+	
+	1.by implementing Runnable interface
+	
+	2.by extending the Thread class
+	
+	Runnable interface:
+	===================
+	Runnable interface said to be Funtional interface 
+	
+	javap java.io.Serializable
+	Compiled from "Serializable.java"
+    public interface java.io.Serializable {
+    }
+
+    ------->>SAM(single abstract method)
+  
+  
+  class Test implements Runnable{
+  run(){
+  // code for which thread need to be create
+  
+  }
+  
+  
+  }
 	
 	
 	
