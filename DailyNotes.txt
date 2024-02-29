@@ -2245,17 +2245,101 @@ applications:
     public interface java.io.Serializable {
     }
 
-    ------->>SAM(single abstract method)
+    ------->> SAM(single abstract method)
   
   
-  class Test implements Runnable{
-  run(){
-  // code for which thread need to be create
+     class Test implements Runnable{
+	 
+      run(){
+      // code for which thread need to be create
   
-  }
+     }
   
   
-  }
+     }
+	
+	
+	 ** Thread class is child class for Runnable interface
+	
+	   start()----->> run()
+	
+	
+	Thread priorities:
+	==================
+	
+	ranges: 1-10
+	
+	1---min thread prority
+	
+	10--max thread priority
+	
+	5- normal(default) priority
+	
+	** main thread priority is 5
+	
+	** currentThread()----->> static -----by class name-----> it returns current thread object
+	
+	
+	Thread life cycle:
+	==================
+	https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+	
+	5 states:
+	
+	1.New ---> when the thread class obj is created thread will be in the new state
+	
+	2.Runnable---> when start() call thread will be in the Runnable stat
+	
+	3.Running----> start() call run method  when the current Thread is executing by run method Thread will be in running
+	
+	4.Terminated(Dead state)--->> when Thread logic is completed Thread will be in the Terminated state
+	
+	5.waiting/sleeping state--->> Thread Executing time we call any method sleep() ,wait()Thread will go to waiting state
+	
+	
+	sleep(5000)----->> 1000 nano sec---> 1 sec
+	
+	
+	sleep(),join(),yiled(),Synchronization
+	
+	
+	yiled():--->>priority
+	=======
+	
+	t1----6------yiled()-----pause------>> stop
+	t2----7
+	t3----8------>> 
+	
+	
+	join():
+	-------
+	if want specific thread we call join method until the completion of Execution of that thread remaining Threads not executed.
+	
+	Synchronization:
+	================
+	Eg:
+	---
+	t1
+	t2
+	t3
+	
+	until the completion of first Thread remaning Threads has to be wait
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
