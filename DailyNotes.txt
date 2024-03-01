@@ -2326,6 +2326,55 @@ applications:
 	until the completion of first Thread remaning Threads has to be wait
 	
 	
+	collections Framework:
+	======================
+	
+	Readymade arichitecture
+	
+	
+	collections is a framework
+	
+	Arrays:
+	-----
+	we can store group of objects 
+	
+	limitations:  3
+	
+	===========
+	
+	1. we can store only homogenous / similar data/objects
+	
+	2. arrays are fixed in size
+	
+	3. no utilty methods
+	
+	variable: single value
+	
+	
+	collections Advantages:
+	=======================
+	
+	1.both homogenous/ hetrogenous data can be stored
+	
+	2.collections are not fixed in size nothing growable in nature
+	
+	3.utility methods 
+	
+	
+	eg:
+	
+	int a[] = {12,2,2.3f,'a'}; // hetrogenous / dissimilar
+	
+	int a[] = {1,2,3,4,5}; // homogenous/ similar
+	
+	
+	collection classes java.util.package
+	
+	colections:
+	==========
+	eg; cover is a container
+	
+	collection is a interface  is a super class for all collection classes
 	
 	
 	
