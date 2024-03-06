@@ -2326,7 +2326,7 @@ applications:
 	until the completion of first Thread remaning Threads has to be wait
 	
 	
-	collections Framework:
+	Collections Framework:
 	======================
 	
 	Readymade arichitecture
@@ -2370,18 +2370,40 @@ applications:
 	
 	collection classes java.util.package
 	
-	colections:
+	collections:
 	==========
-	eg; cover is a container
+	Eg: cover is a container
 	
-	collection is a interface  is a super class for all collection classes
-	
-	
+	collection is a interface Which is super class for all collection classes
 	
 	
+	Comparable and Comparator:
+	=========================
 	
+	Comparable is present in -----------> java.lang package
 	
+	compareTo()------ natural sorting order
 	
+	Comparator  -----------------------> java.util package
+	
+	compare() -----> Custom Sorting Order
+	
+	eg: -bat.compareTo(cat);     
+	     cat
+		 
+	     -(-1) ----->>>  +1
+		 
+		 ReverseOrder:
+		 ============
+		 
+		 1.change the objects
+		 
+		 2.place negative sign before a object
+	
+	     MAP:
+		 ====
+		 key and value pair
+		 
 	
 	
 	
