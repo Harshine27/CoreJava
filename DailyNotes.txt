@@ -2405,13 +2405,43 @@ applications:
 		 key and value pair
 		 
 	
+	     ***** CASE STDUY:   corejava--------------->> Banking Operations
+		       ===========
 	
 	
+	    Layered Arichiteture:
+		=====================
 	
+	    Static imports:
+		==============
+		
+		import packagename.classname.*;
+		
+		 import java.lang package.System;
+		 
+		 Scanner:
+		 
+		 import static  java.util.Scanner; // ctrl+ shift + o
+	      
+		 syntax for static imports:
+		 ==========================
+		 
+	     import static pacakagename.*;
 	
-	
-	
-	
-	
-	
-	
+	    
+		Enum:
+		=====
+		enum------>> instead of class,interface we can use this keyword
+		
+		---UPPERCASE   
+		
+		Eg: SUNDAY,
+		
+		
+		
+		
+		
+		
+		
+		
+		
