@@ -2438,6 +2438,198 @@ applications:
 		Eg: SUNDAY,
 		
 		
+		java5 feauters:
+		================
+		
+		
+		autoBoxing / unBoxing
+		
+		primitive data types:             Wrapper classes:
+		
+		====================             =================
+		int                                 Integer
+		
+		short                         		Short
+		
+		byte                                 Byte
+		
+		char                                Character
+		
+		boolean                             Boolean
+		
+		float                                Flaot
+		
+		etc....
+		
+		autoBoxing:  converting primitivte data type into wrapper class object.
+		-----------
+		
+		unboxing:    converting wrapper class object into  primitive data type.
+		---------
+		
+		
+		
+		java6 :
+		
+		collection Frame works,jar file
+		
+		
+		java7:
+		
+		switch, Exception Handling,catch 
+		
+		
+		java 8 features:
+		================
+		
+		when??
+		
+		2014, march 18 th
+		
+		
+		python: ------------->>Functional programming  
+		=======
+		
+		10 lines of code
+		
+		
+		comming to java:
+		================
+		
+		100 lines of code
+		
+		some features:
+		=============
+		
+		
+		1.Lamda Expression
+		
+	    2.Functional Interface(SAM)
+		
+		3.default,static methods in inetrface
+		
+		4. Functional Interfaces
+		
+		   predicate
+		   
+		   functions
+		   
+		   Consumer
+		   
+		   Supplier
+		   
+		5.DATE and TIME API
+		
+		6.Streams
+		
+		1.Lamda Expression:
+		===================
+		
+		Annoymous Function
+		
+		      *Nameless
+			  
+			  *no need of return type
+			  
+			  *no need of accesss modifier
+			  
+		Functional programming:
+        ===============================	
+
+        procedure   oop	(objects)	
+			  
+		Function---Methods	
+		
+		Objectives of java 8:
+		======================
+		
+		    1.simpilfied code(concised code)
+			
+			2.to introduce functional programming
+			
+			3.to enable parallel programming
+			
+			
+			Eg:  Normal method
+			
+			    public void m1(){
+				
+				System.out.println("HelloWorld");
+				
+				} // normal method
+				
+				Lamda:
+				======
+				
+				  ()->System.out.println("HelloWorld");
+				
+				  lamda symbol (->)
+				
+				
+				Eg 2:
+				=====
+				
+				public void addition(int a , int b){
+				
+				Syso(a+b);
+				
+				}
+				
+				Lamda :
+				======
+				
+				  ( a , b )->Syso(a+b);
+				
+				
+				** there is no lamda expression without functional interface
+				
+				** compiler will guess the type of paramaters no need to give explicity
+				
+				
+		     2.Functional Interface:  (SAM)
+			 
+			 =======================
+			 
+			 @Functional Interface ---->> it s optional 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+				
+			
+
+
+		
+			  
+			  
+			  
+			  
+			  
+		
+		   
+		   
+		
+		     
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
