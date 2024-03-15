@@ -2506,9 +2506,9 @@ applications:
 		
 	    2.Functional Interface(SAM)
 		
-		3.default,static methods in inetrface
+		3.static,default, methods in interrface
 		
-		4. Functional Interfaces
+		4. Functional Interfaces(SAM)
 		
 		   predicate
 		   
@@ -2590,21 +2590,104 @@ applications:
 			 
 			 =======================
 			 
-			 @Functional Interface ---->> it s optional 
+			 Annotation @Functional Interface ---->> it s optional 
 			 
 			 
 			 
+			 3. Default and static methods in intefaces:
+			 ===========================================
+			 
+			 from java 1.8 version default and static methods wil be used in the INTERFACE
 			 
 			 
+			 Default methods in interface:
+			 =============================
+			 
+			 public abstract 
+			 
+			 interface I{
+			 
+			   void m1();
+			   
+			   default void m2(){
+			   
+			      Syso("DEfult method);
+			   
+			   }
+			 
+			 }
+			 class One  implements I{
+			 
+			 void m1(){
+			 
+			 Syso("HELLO");
+			 
+			 }
+			 void m2(){
+			 
+			 Syso("HELLOooooooooooooo");
+			 
+			 }
+			 
+			 class Two  implements I{
+			 
+			 void m1(){
+			 
+			 Syso("HELLO");
+			 
+			 }
 			 
 			 
-				
+			 class Three implements I{
+			 
+			 @Override
+			 public void m2(){
+			 
+			 Syso("HELLO");
+			 
+			 }
+			 }
+			 
+			 }
+			 }
+			 
+			 static methods in the interface :
+			 =================================
+			 
+			 
+			 class                        interface          
+			 
+			 
+			 implementation methods       abstarct methods  
+			 
+			 obj creation
+			 
+			 data can be
+			 
+			 costly                             cheap
+			 
+			 heavier                               lighter
+			 
+			 
+			 by using class name (we dont create any obj for statc mtds)
+			 
+			 
+			 static methods @ interface ----from java 1.8
 			
-
+             better performanace 
 
 		
 			  
-			  
+			5.Date and Time API:
+			====================
+
+            classes and interface	
+
+            LocalTime  hr-ms-sec
+
+            LOcalDate  yr-mn-dd
+
+            LocalDAteTime			
 			  
 			  
 			  
