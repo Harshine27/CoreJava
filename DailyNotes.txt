@@ -2685,12 +2685,132 @@ applications:
 
             LocalTime  hr-ms-sec
 
-            LOcalDate  yr-mn-dd
+            LocalDate  yr-mm-dd
 
-            LocalDAteTime			
+            LocalDateTime			
 			  
 			  
-			  
+			streams:
+            ========
+            
+        Collection and stream : 
+		=====================
+		Collection: if we want to store group of objects into a single entity 
+
+
+        Stream :   if we want to process of obj from collection	
+		
+		
+		java.util.stream package
+		
+		Stream s = c.stream();
+		
+		filter
+		map
+		sorted
+		count
+		
+		
+		DATA BASE:
+		==========
+		DATA:
+		=====
+		Collection of information from any source
+		
+		DATA BASE:
+		==========
+		used to store and oraganize our data for fucture purpose and security...
+		
+		DBMS:
+		=====
+		Data base management system..
+		
+		
+		software tool
+		
+		
+		RDBMS:
+		======
+		realational database mnagement sysytem
+		
+		realation:  -------->> Tables 
+		
+		Table : rows and columns
+		
+		rows ----->> records
+		
+		coulmns--->> fileds
+		
+		RDBMS
+		
+		Mysql: (DBMS)
+		======
+		
+		SQL: (Structured query language)
+		
+		
+		Queires
+		
+		5 types of queires:
+		====================
+		
+		1.DDL(Data Definition Language):--
+		
+		   Commands  --------->>create,alter,truncate,drop,rename
+		
+		2.DML(Data Manipulation Language):-
+		
+		    Commands : insert,update,delete,merge
+		
+		
+		3.DQL /DRL(Data Query Lang/ data Retrivel)
+		
+		    Command : select
+		
+		4.DCl (Data Control Language):-
+		
+		  Commands :  grant,revokke
+		
+		5.TCL(Transaction Control Language )
+		
+		Commands :  commit,savepoint,rollback
+		
+		
+		CRUD operations:
+		================
+		
+		create,read,update,delete
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+     		
 		
 		   
 		   
