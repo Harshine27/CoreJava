@@ -2833,6 +2833,65 @@ applications:
 		
 		5.close the Connection
 		
+		JPA:
+		=====
+		
+		disadvantages of jdbc:
+		=====================
+		
+		1.Biloerpalte code
+		
+		2.Exception handling
+		
+		3.switching among the databases
+		
+		4.writing queires
+		
+		JPA:
+		====
+		
+		Java persistence API
+		
+		JPA --Interface
+		
+		Hibernate ---> implementation 
+		
+		Jpa is a specification given by sun micro systems..
+		
+		
+		crud operations:
+		================
+		
+		create,read,update,delete
+		
+		
+		create/insert ------>> persist()
+		
+		
+		read/select  -------->> find()
+		
+		
+		update ------------>>>  merge()
+		
+		
+		delete --------------->> remove()
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
