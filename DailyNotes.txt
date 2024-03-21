@@ -2782,6 +2782,63 @@ applications:
 		create,read,update,delete
 		
 		
+		constraints:
+		    primary key
+			unique
+			foriegn key
+			not null 
+			check
+		
+		joins:
+		
+		  inner join
+		  
+		  left join
+		  
+		  right join
+		  
+		 
+		
+		JDBC:
+		=====
+		Java Database Connectivity
+		
+		API---Application programming interface
+		
+		4 Drivers:
+		
+		1.JDBC-ODBC bridge driver
+		
+		2.Native API driver
+		
+		3.Network protocal driver
+		
+		4.Thin driver
+		
+		
+		steps to follow to connect :
+		==========================
+		
+		5 steps:
+		--------
+		
+		
+		1.Loading the Driver classs 
+		
+		2.Create the Connection
+		
+		3.Create the Statement
+		
+		4.execute the Queires
+		
+		5.close the Connection
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
