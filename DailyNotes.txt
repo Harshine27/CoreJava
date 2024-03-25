@@ -2854,7 +2854,7 @@ applications:
 		
 		JPA --Interface
 		
-		Hibernate ---> implementation 
+		Hibernate ---> implementation --->> ORM(Object realatonal mapping)
 		
 		Jpa is a specification given by sun micro systems..
 		
@@ -2877,8 +2877,17 @@ applications:
 		delete --------------->> remove()
 		
 		
+		JPQL:
+		=====
+		
+		java persistence query languge------objects ----java objects
 		
 		
+		
+		
+		
+		
+		Entity Manager ---interface
 		
 		
 		
