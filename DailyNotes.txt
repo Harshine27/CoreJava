@@ -2858,6 +2858,8 @@ applications:
 		
 		Jpa is a specification given by sun micro systems..
 		
+		EntityManager ---Interface
+		
 		
 		crud operations:
 		================
@@ -2883,11 +2885,244 @@ applications:
 		java persistence query languge------objects ----java objects
 		
 		
+		Spring Framework:
+		=================
+		
+		Framework:
+		=========
+		
+		readymade template=====>> utlity methods
+		
+		
+		
+		2 types of framework:
+		=======================
+		
+		1. Invasive Framework eg: (structs)
+		
+		2. Non-Invasive Framework (eg: spring,hiberanate)
+		
+		advantages of framework:
+		======================
+		
+		1.It removes the biloerplate code(repeated code)----performance increase
+		
+		Spring Framework:
+		===================
+		
+		Spring:
+		=======
+		
+		
+		spring is a non-invasive framework which is  used to bulid light weight and loosely coupled applications.
+		
+		
+		
+		1.non-invasive ----->> invasive
+		
+		2.light -weight ---->> heavy weight
+		
+		3.loosely couple ---->> tightly coupled 
+		
+		
+		
+		Invasive:
+		=========
+		
+		Servlet:
+		=======
+		
+		used to develop web applications
+		
+		
+		web appl:
+		=========
+		
+		examples: gmail,amazon,flip,insta,
+		
+		
+		3 ways:
+		=======
+		
+		1.implementing Servlet
+		
+		2.extends the GenericServlet
+		
+		3.extends HttpServlet(12)
+		
+		
+		class login extends HttpServlet{
+		
+		// 12 methods
+		
+		
+		
+		}
+		
+		100 classes ----->> 100*12 = 1200
+		
+		servlet ---invasive framework(heavy weight)
+		
+		EJB:
+		====
+		
+		(Enterprise Java Bean)----Invasive framework
+		
+		
+		Spring:
+		=======
+		
+		 ROd Johnson
+		 
+		 2003---> this is first version
+		 
+		 1.x  ---> versions like this
+		 
+		 The current version : 6.x
+		 
+		 20 modules:
+		 ==========
+		 
+		 spring core,spring data,spring jdbc , spring jpa, spring boot----->>
+		 
+		 
+		 non-invaisve---->> light weight--->> loosely copuled 
+		 
+		 
+		 loosely coupled:
+		 ================
+		 
+		 A a = new A();
+		 
+		 classname obj = new classname();
+		 
+		 tightly coupled:
+		 ================
+		 
+		 class A{
+		 
+		 A(int a ){
+		 
+		 int x = 10;
+		 
+		 }
+		 
+		 void m11(){
+		 
+		 }
+		 
+		 }
+		 
+		 class B{
+		 
+		 //A a = new A(); // tightly coupled
+		 
+		 a.m11();
+		 
+		 void m1(){
+		 }
+		 
+		 Containers:
+		 ===========
+		 
+		 2 types:
+		 ========
+		 
+		 1.BeanFactory
+		 
+		 2.ApplicationContext
+		 
+		 
+		 life cycle of the object:
+		 =========================
+		 
+		 1.creation of object
+		 
+		 2.wiring the object
+		 
+		 3.configuring the object
+		 
+		 4.destruction of object
+		 
+		 
+		 
+		 Spring Core:
+		 ============
+		 
+		 
+		 configurations:
+		 ===============
+		 
+		 3 types:
+		 =======
+		 
+		 1.Xml configurations
+		 
+		 2.Annoation Config
+		 
+		 3.Java configuration
+		 
+		 
+		 3 types injections:
+		 ==================
+		 
+		 1.Setter Injection
+		 
+		 
+		 2.Constructor Injection
+		 
+		 3.Autowiring(dependency Object)
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 		
 		
 		
 		
-		Entity Manager ---interface
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
