@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="emp" class="com.spring.autowiring.Employee" autowire="byName">
+		<property name="empId" value="133"></property>
+		<property name="empName" value="Harshine"></property>
+		<property name="empDesg" value="Trainer"></property>
+		<property name="empSal" value="133451"></property>
+		<!-- <property name = "address" ref = "add"></property>-->
+
+
+	</bean>
+
+	<bean id="add" class="com.spring.autowiring.Address">
+		<property name="hno" value="13356"></property>
+		<property name="colony" value="Hr"></property>
+		<property name="city" value="Hyd"></property>
+		<property name="pincode" value="1334"></property>
+
+
+	</bean>
+</beans>
