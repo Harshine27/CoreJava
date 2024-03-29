@@ -3028,9 +3028,9 @@ applications:
 		 2 types:
 		 ========
 		 
-		 1.BeanFactory
+		 1.BeanFactory---->> Lazy Intilizer
 		 
-		 2.ApplicationContext
+		 2.ApplicationContext--->Eager Intilizer
 		 
 		 
 		 life cycle of the object:
@@ -3074,6 +3074,16 @@ applications:
 		 3.Autowiring(dependency Object)
 		 
 		 
+		 <bean> autowire =""
+		 
+		 SetterInjection = "byName" , "byType"
+		 
+		 ConstructorInjection = "constructor"
+		 
+		 Maven:
+         ======		 
+		 
+		 Dependency tool
 		 
 		 
 		 
