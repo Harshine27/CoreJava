@@ -3056,7 +3056,7 @@ applications:
 		 3 types:
 		 =======
 		 
-		 1.Xml configurations
+		 1.Xml configuration(old approach)
 		 
 		 2.Annoation Config
 		 
@@ -3067,7 +3067,6 @@ applications:
 		 ==================
 		 
 		 1.Setter Injection
-		 
 		 
 		 2.Constructor Injection
 		 
@@ -3081,19 +3080,46 @@ applications:
 		 ConstructorInjection = "constructor"
 		 
 		 Maven:
-         ======		 
+         ======	
 		 
 		 Dependency tool
 		 
+		 >> creates a maven project with all depencies mentioned.
+		 
+		 @Component--->> for which class u want to create object
+		 
+		 @Autowired---->> to inject dependent object into main class object
+		 
+		 @Configuration-->>to make a java class as configuration file instead of xml configuration file.
+		 
+		 @ComponentScan--->> to scan entire package so that,wherever are given for specific task
 		 
 		 
 		 
+		 Java Configuration:
+		 ==================
+		 
+		 @Bean Annotation
+		 
+		 Modules:
+		 =========
+		 
+		 Spring_jdbc
+		 
+		 Spring_Jpa
+		 
+		 Spring_Boot with rest services along spring security
 		 
 		 
+		 Spring_Jdbc:
+		 ===========
+		 JdbcTemplate ----predefined class
 		 
+		 update----->> insert,update,delete
 		 
+		 execute---->> select
 		 
-		 
+		 query---> select the records data
 		 
 		 
 		 
