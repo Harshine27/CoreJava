@@ -3113,6 +3113,7 @@ applications:
 		 
 		 Spring_Jdbc:
 		 ===========
+		 
 		 JdbcTemplate ----predefined class
 		 
 		 update----->> insert,update,delete
@@ -3122,37 +3123,30 @@ applications:
 		 query---> select the records data
 		 
 		 
+		 Spring_Jpa:
+		 ===========
 		 
-		 
-		 
-		 
+		 Hibernate--->> Non-Invasive
+		
+         tightly coupled
+		
+		Advantages :
+		==========
+		
+		1.loosely coupled(creating the obj is taken care by the containers)
+		
+		2.spring is taken care by creating the entity manager obj
+		
+		3.taking care of transcation begin method transaction commit
 		
 		
+		@Component----> for obj creation by container
 		
+		@Service------> for service layers classes instead of @Component
 		
+		@Repository---->for DAO(data access obj layer) layers classes instead of @Component
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		@Transactional---> instead of using Transaction begin and commit
 		
 		
 		
