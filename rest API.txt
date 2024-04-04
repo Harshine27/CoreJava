@@ -1,0 +1,76 @@
+REST API Introduction:
+=====================
+Representational State Transfer (REST) is an architectural style that defines a set of constraints to be used
+
+for creating web services.
+
+REST API is a way of accessing web services in a simpleand flexible way without having any processing.
+
+It's used to fetch or give some information from webservices.
+
+All communication done via REST API uses only HTTP request.
+
+Working:
+========
+
+A request is sent from client to server in the form of a web URL as HTTP GET  or PUT or DELETE request.
+
+After that,a response comes back from the server in the form of a resource which can be anything like
+
+HTML,XML,IMage, or JSON.
+
+But now JSON is the most popular format being used in web Services.
+
+
+     
+                       sendRequest(HTTP)
+
+      Client ------------------------------------------>> Server
+
+     
+      Client<<---------------------------------------------Server
+
+          
+                        send response
+
+                    (html,xml,image,json)
+
+  In HTTP there are five methods that are commomnly used in a REST-based Architecture
+
+  i.e POST,GET,PUT,PATCH,and DELETE..
+
+  These correspond to create,read,update,and  delete (or CRUD) operations respectively.
+
+ GET:
+ ====
+
+  the HTTP GET method is used to read (or retrieve) a representation of a resource.
+
+
+  In the safe path,GET returns a reprsentation in XML Or JSON and an HTTP respnse code of 200(OK)
+
+
+  In an error case,it most often returns a 404(NOT FOUND) or 400(BAD REQUEST).
+
+POST:
+=======
+
+the POST verb is most often utilized to create new resources.
+
+on sucessful creation,return HTTP status 201.
+
+PUT:
+====
+
+It is used for updating the capabilities.
+
+on sucusessful update,return 200(or 204 if not returning any content in the body)from a PUT.
+
+If using PUT for create,return HTTP status 201 on sucuessful creation.
+
+
+DELETE:
+=======
+It is used to delete a resource identfied by a URL.
+
+on Sucuessful deletion ,return HTTP status 200 (OK) along with a response body.
