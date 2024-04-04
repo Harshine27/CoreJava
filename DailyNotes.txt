@@ -3122,6 +3122,10 @@ applications:
 		 
 		 query---> select the records data
 		 
+		 Spring MVC:
+	     ===========
+	
+	     model view controller  ---(web applications)
 		 
 		 Spring_Jpa:
 		 ===========
@@ -3149,9 +3153,78 @@ applications:
 		@Transactional---> instead of using Transaction begin and commit
 		
 		
+	 	
+	limitiations of spring:
+    ===============================
+     spring has annotation only for user defined classes, but for predefined clases we have to provide configuration 
+
+     expilicity..
+
+	
+	Spring Boot:
+    ============	to overcome this:
+	
+	
+	4 features:
+	===========
+	
+	1.Auto-Configuration
+	
+	2.Embeded servers(tomcat,weblogic,jetty)
+	
+	3.Straters---->depenciences
+	
+	4.Acturators---->check for project details
+	
+	Webservices:
+	============
+	
+	eg:
+	===
+	
+	phonepe: Amazon--Application
+	
+	suppose:
+	
+	       electricity bill--- electricity dept
+		   
+		   50 k
+		   
+		   any bank releated application
+	
+	    phonepe ---API 
+		
+		achieve :
+		=========
+		          application to application
+		
+		REST--->>
+		
+		resfull services--put,get,post,delete
+		=================
+		
+		@RequestMapping("post/")
+		
+		
+		  @GetMapping
+		
+		  @postMapping
+		
+		  @PutMapping
+		
+		  @DeleteMapping
+		
+		tools---rest tool ----->>>>postman/swagger
 		
 		
 		
+		
+		
+		
+	
+	
+	
+	
 		
 		
 		
